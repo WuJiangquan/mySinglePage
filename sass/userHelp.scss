@@ -1,0 +1,51 @@
+@import "baseScss";
+
+.quessionNav{
+	width:780px;
+	height:200px;
+	margin:40px auto;
+	a{
+		height:200px;
+		width:230px;
+		margin-right:40px;
+		display:inline-block;
+		background:#f1f1f1;
+		&:last-child{
+			margin-right:0;
+		}
+		&.current{
+			background:$themeYellow;
+		}
+		div{
+			width:230px;
+			height:200px;
+			display:table-cell;
+			vertical-align:middle;
+			text-align:center;
+			img{
+				display:inline-block;
+				margin:0 auto;
+				max-width:100%;
+				max-height:100%;
+			}
+		}
+	}
+}
+$quessionBorder : #e6e6e6 solid 2px;
+.quessionContainer{
+	width:780px;
+	height:auto;
+	margin:0 auto;
+	margin-bottom:40px;
+	font-size:16px;
+	line-height:27px;
+	ul{
+		width:100%;
+		height:auto;
+		border-top:$quessionBorder;
+		li{
+			border-bottom:$quessionBorder;
+			padding: 10px 0;
+		}
+	}
+}

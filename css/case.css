@@ -1,0 +1,88 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\000036}}
+article {
+  width: 100%;
+  margin-bottom: 40px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\000039}}
+  article header {
+    width: 100%;
+    height: 380px;
+    background: #283d98; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000313}}
+    article header > div {
+      width: 893px;
+      height: 100%;
+      padding-left: 70px;
+      margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000318}}
+      article header > div .title {
+        width: 380px;
+        height: 100%;
+        margin-right: 0px;
+        float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000323}}
+        article header > div .title img {
+          height: 110px;
+          width: 100%;
+          margin-top: 100px;
+          margin-bottom: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000329}}
+        article header > div .title p {
+          font-size: 14px;
+          color: white;
+          line-height: 22px;
+          width: 100%;
+          text-align: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000337}}
+      article header > div .pic {
+        margin-top: 93px;
+        float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000340}}
+        article header > div .pic img {
+          width: 513px;
+          height: 283px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000349}}
+section {
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000351}}
+  section h2 {
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 45px;
+    margin-top: 80px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000359}}
+  section.challenge h2 {
+    color: #283d98; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000362}}
+  section.challenge img {
+    height: 600px;
+    margin: 0 auto;
+    display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000368}}
+  section.result {
+    margin-bottom: 40px;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000371}}
+    section.result h2 {
+      color: #ffbb3a; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000374}}
+    section.result ul {
+      width: 830px;
+      height: auto;
+      margin: 0 auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000378}}
+      section.result ul li {
+        width: 360px;
+        height: 380px;
+        margin-bottom: 60px;
+        float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000383}}
+        section.result ul li:nth-child(2n+1) {
+          margin-right: 110px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/case\.scss}line{font-family:\0000386}}
+        section.result ul li img {
+          width: 100%;
+          height: 100%; }
+
+/*# sourceMappingURL=case.css.map */

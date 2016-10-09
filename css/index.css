@@ -1,0 +1,145 @@
+.banner, .banner ul {
+  width: 100%;
+  height: 500px; }
+  .banner ul li, .banner ul ul li {
+    width: 100%;
+    height: 500px;
+    background: black; }
+    .banner ul li a, .banner ul ul li a {
+      width: 100%;
+      height: 100%;
+      display: block; }
+      .banner ul li a img, .banner ul ul li a img {
+        height: 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        display: block; }
+
+section[role="appDetail"] {
+  width: 100%;
+  height: 630px;
+  margin-top: 70px;
+  margin-bottom: 40px;
+  text-align: center; }
+  section[role="appDetail"] > div {
+    width: 1024px;
+    height: 630px;
+    overflow: hidden;
+    margin: 0 auto;
+    display: inline-block; }
+    section[role="appDetail"] > div .appPageContainer {
+      width: 360px;
+      height: 100%;
+      text-align: center;
+      float: left;
+      background: url(../images/index/pic_iphone.png);
+      background-size: 100% 100%; }
+      section[role="appDetail"] > div .appPageContainer ul {
+        position: relative;
+        width: 255px;
+        height: 445px;
+        padding-top: 65px;
+        margin: 0 auto;
+        overflow: hidden; }
+        section[role="appDetail"] > div .appPageContainer ul li {
+          width: 255px;
+          height: 445px;
+          float: left; }
+          section[role="appDetail"] > div .appPageContainer ul li div {
+            width: 255px;
+            height: 445px;
+            display: table-cell;
+            vertical-align: center;
+            text-align: center; }
+            section[role="appDetail"] > div .appPageContainer ul li div img {
+              max-width: 100%;
+              max-height: 100%;
+              margin: 0 auto;
+              display: inline-block; }
+    section[role="appDetail"] > div aside.appPageNav {
+      height: auto;
+      max-width: 570px;
+      padding-top: 65px;
+      float: right; }
+      section[role="appDetail"] > div aside.appPageNav section {
+        width: 100%;
+        float: left; }
+        section[role="appDetail"] > div aside.appPageNav section h3 {
+          width: 125px;
+          height: 30px;
+          background-size: 100% 100%;
+          margin-bottom: 30px; }
+        section[role="appDetail"] > div aside.appPageNav section nav {
+          width: auto;
+          height: auto; }
+          section[role="appDetail"] > div aside.appPageNav section nav a {
+            width: 85px;
+            height: auto;
+            color: black;
+            margin-right: 35px;
+            margin-bottom: 60px;
+            float: left;
+            display: block; }
+            section[role="appDetail"] > div aside.appPageNav section nav a:last-child {
+              margin-right: 0; }
+            section[role="appDetail"] > div aside.appPageNav section nav a:hover img, section[role="appDetail"] > div aside.appPageNav section nav a:hover p, section[role="appDetail"] > div aside.appPageNav section nav a.current img, section[role="appDetail"] > div aside.appPageNav section nav a.current p {
+              opacity: 1; }
+            section[role="appDetail"] > div aside.appPageNav section nav a div {
+              width: 85px;
+              height: 85px;
+              text-align: center;
+              vertical-align: middle;
+              background: #ffbb3a;
+              border-radius: 85px;
+              display: table-cell; }
+              section[role="appDetail"] > div aside.appPageNav section nav a div img {
+                opacity: 0.6;
+                max-width: 100%;
+                max-height: 100%;
+                display: inline-block;
+                margin: 0 auto; }
+            section[role="appDetail"] > div aside.appPageNav section nav a p {
+              width: 100%;
+              margin-top: 30px;
+              font-size: 20px;
+              opacity: 0.6;
+              text-align: center; }
+      section[role="appDetail"] > div aside.appPageNav section[role="appFunction"] h3 {
+        background-image: url(../images/index/title_theapp.png); }
+      section[role="appDetail"] > div aside.appPageNav section[role="backendFunction"] h3 {
+        background-image: url(../images/index/title_thepc.png); }
+
+section[role="client"] {
+  width: 100%;
+  height: auto;
+  min-width: 925px;
+  margin-bottom: 155px; }
+  section[role="client"] h2 {
+    width: 170px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 65px;
+    background: url(../images/index/title_customers.png);
+    background-size: 100% 100%; }
+  section[role="client"] div {
+    width: 400px;
+    height: auto;
+    margin: 0 auto; }
+    section[role="client"] div figure {
+      width: 76px;
+      margin-right: 5px;
+      float: left; }
+      section[role="client"] div figure:last-child {
+        margin-right: 0px; }
+      section[role="client"] div figure img {
+        width: 100%;
+        height: 56px; }
+      section[role="client"] div figure figcaption {
+        width: 100%;
+        text-align: center;
+        font-size: 20px;
+        margin-top: 25px;
+        margin-bottom: 155px;
+        color: #b0b0b0; }
+
+/*# sourceMappingURL=index.css.map */

@@ -1,0 +1,73 @@
+@import "baseScss";
+section{
+	width:770px;
+	height:auto;
+	margin:77px auto;
+	h2{
+		width:410px;
+		height:80px;
+		background-image:url(../images/aboutUs/logo.png);
+		background-size:100% 100%;
+		margin-bottom:50px;
+	}
+	p{
+		font-size:$contentFontSize;
+		line-height:30px;
+	}
+}
+
+.contactContainer{
+	width:770px;
+	height:460px;
+	margin:0 auto;
+	margin-bottom:100px;
+	>div{
+		float:left;
+	}
+	.concatWay{
+		height:100%;
+		width:270px;
+		padding:30px;
+		@include boxsizing(border-box);
+		background:$themeYellow;
+		font-sze:$contentFontSize;
+		line-height:38px;
+		float:left;
+		li{
+			margin-bottom:30px;
+			font-size:22px;
+			font-family:"STXihei";
+			&:last-child{
+				margin-bottom:0px;
+			}
+			img{
+				width:160px;
+				height:160px;
+			}
+		}
+	}
+	.concatLocation{
+		width:500px;
+		height:460px;
+		float:left;
+		.address{
+			height:115px;
+			width:100%;
+			@include boxsizing(border-box);
+			padding:35px 30px;
+			background:#f2f2f2;
+			p{
+				font-size:$contentFontSize;
+				margin-bottom:15px;
+				&:last-child{
+					font-size:18px;
+					margin-bottom:0;
+				}
+			}
+		}
+		.mapContainer{
+			height:345px;
+			width:100%;
+		}
+	}
+}

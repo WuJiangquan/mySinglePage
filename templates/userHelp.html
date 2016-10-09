@@ -1,0 +1,18 @@
+<link href="/static/guanwangApp/css/userHelp.css" rel="styleSheet" />
+<nav class="quessionNav">
+	<a class="current"><div><img src="/static/guanwangApp/images/userHelp/normal.png"></div></a>
+	<a><div><img src="/static/guanwangApp/images/userHelp/pc.png"></div></a>
+	<a><div><img src="/static/guanwangApp/images/userHelp/app.png"></div></a>
+</nav>
+<div class="quessionContainer">
+	<% _.each(datas,function(item){ %>
+		<ul class="hide">
+			<% _.each(item.details , function(detail){%>
+				<li>
+					<p>Q：<%= detail.quession %></p>
+					<p>A：<%= detail.answer %></p>
+				</li>
+			<% }) %>
+		</ul>
+	<% }) %> 
+</div>

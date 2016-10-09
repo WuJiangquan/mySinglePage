@@ -1,0 +1,127 @@
+@charset "UTF-8";
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\000033}}
+* {
+  font-family: "Microsoft YaHei", 微软雅黑, "MicrosoftJhengHei", 华文细黑, STHeiti, MingLiu; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\000037}}
+body {
+  width: 100%;
+  min-height: 400px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000311}}
+header {
+  width: 100%;
+  height: 80px;
+  overflow: hidden;
+  background: #ffbb3a;
+  text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000317}}
+  header nav {
+    width: auto;
+    height: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    text-align: center;
+    border: 0;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000324}}
+    header nav a {
+      height: 80px;
+      width: 90px;
+      margin: 0 20px;
+      float: left;
+      border: 0;
+      opacity: 0.3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000331}}
+      header nav a:hover, header nav a.current {
+        opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000334}}
+      header nav a div {
+        width: 90px;
+        height: 80px;
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000338}}
+        header nav a div img {
+          display: inline-block;
+          max-width: 100%;
+          max-height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000347}}
+.footerOpacity {
+  opacity: 0.3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000349}}
+  .footerOpacity:hover {
+    opacity: 1;
+    cursor: pointer; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000355}}
+footer {
+  width: 100%;
+  height: auto;
+  padding: 20px 0;
+  padding-top: 35px;
+  text-align: center;
+  background: #ffbb3a;
+  min-width: 650px;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000364}}
+  footer > div {
+    width: 450px;
+    height: auto;
+    margin: 0 auto;
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000369}}
+    footer > div ul {
+      height: 60px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000371}}
+      footer > div ul li {
+        float: left;
+        height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000374}}
+        footer > div ul li > a {
+          height: 100%;
+          display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000379}}
+        footer > div ul li td {
+          padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000381}}
+          footer > div ul li td:nth-child(2n+1) {
+            padding-right: 25px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000384}}
+          footer > div ul li td a {
+            width: 100%;
+            height: 100%;
+            color: black;
+            display: block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\0000392}}
+      footer > div ul div {
+        float: left;
+        width: 1px;
+        height: 100%;
+        margin: 0 30px;
+        background: rgba(0, 0, 0, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\00003101}}
+  footer aside {
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0.3;
+    font-size: 13px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\00003107}}
+    footer aside div {
+      display: inline-block;
+      margin-right: 13px;
+      margin-bottom: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/main\.scss}line{font-family:\00003115}}
+#viewContainer {
+  width: 100%;
+  height: auto; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,114 @@
+#viewContainer {
+  width: 100%;
+  overflow-x: hidden; }
+
+.productNav {
+  height: 565px;
+  width: 1150px;
+  margin: 0 auto;
+  margin-bottom: 95px;
+  overflow: hidden; }
+  .productNav a {
+    width: 200px;
+    height: 200px;
+    margin-top: 80px;
+    margin-right: 30px;
+    display: inline-block; }
+    .productNav a:nth-child(4n+4) {
+      margin-right: 0; }
+
+section {
+  width: 100%; }
+  section.yellowBgSection {
+    height: 835px;
+    background: url(../images/product/colorbg.png);
+    background-size: 100% 100%; }
+    section.yellowBgSection header {
+      float: left;
+      padding-top: 250px;
+      padding-right: 20px; }
+      section.yellowBgSection header h2 {
+        float: right; }
+        section.yellowBgSection header h2 img {
+          float: left; }
+      section.yellowBgSection header h3 {
+        float: right; }
+    section.yellowBgSection > div {
+      float: right; }
+      section.yellowBgSection > div .outer {
+        margin-left: 115px; }
+      section.yellowBgSection > div > img {
+        margin-left: 115px;
+        height: 750px;
+        margin-top: 70px; }
+  section.whiteBgSection {
+    height: 610px; }
+    section.whiteBgSection header {
+      float: right;
+      padding-top: 115px;
+      padding-left: 20px; }
+      section.whiteBgSection header h2 {
+        display: inline-block;
+        float: left; }
+      section.whiteBgSection header h3, section.whiteBgSection header h2 img {
+        float: left; }
+    section.whiteBgSection > div {
+      float: left;
+      position: relative; }
+      section.whiteBgSection > div .outer {
+        position: absolute;
+        right: 115px;
+        top: -95px; }
+      section.whiteBgSection > div > img {
+        margin-top: -60px;
+        margin-right: 115px;
+        float: right;
+        height: 705px; }
+  section header {
+    background: none;
+    width: 50%;
+    height: 100%;
+    float: left;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box; }
+    section header h2 {
+      height: auto;
+      width: 370px; }
+    section header h3 {
+      width: 370px;
+      text-align: left;
+      font-size: 20px;
+      line-height: 32px; }
+    section header div {
+      width: 100%;
+      height: 500px;
+      float: left; }
+  section > div {
+    position: relatice;
+    width: 50%;
+    height: 100%;
+    float: left; }
+    section > div .outer {
+      width: 366px;
+      height: 754px;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      padding: 0 33px;
+      padding-top: 87px;
+      background: url(../images/product/pic_iphone.png); }
+      section > div .outer .inner {
+        height: 538px;
+        width: 100%; }
+        section > div .outer .inner img {
+          width: 100%;
+          height: 100%; }
+    section > div > img {
+      height: 100%; }
+
+/*# sourceMappingURL=product.css.map */

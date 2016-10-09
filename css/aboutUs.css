@@ -1,0 +1,82 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\000032}}
+section {
+  width: 770px;
+  height: auto;
+  margin: 77px auto; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\000036}}
+  section h2 {
+    width: 410px;
+    height: 80px;
+    background-image: url(../images/aboutUs/logo.png);
+    background-size: 100% 100%;
+    margin-bottom: 50px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000313}}
+  section p {
+    font-size: 20px;
+    line-height: 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000319}}
+.contactContainer {
+  width: 770px;
+  height: 460px;
+  margin: 0 auto;
+  margin-bottom: 100px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000324}}
+  .contactContainer > div {
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000327}}
+  .contactContainer .concatWay {
+    height: 100%;
+    width: 270px;
+    padding: 30px;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    background: #ffbb3a;
+    font-sze: 20px;
+    line-height: 38px;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000336}}
+    .contactContainer .concatWay li {
+      margin-bottom: 30px;
+      font-size: 22px;
+      font-family: "STXihei"; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000340}}
+      .contactContainer .concatWay li:last-child {
+        margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000343}}
+      .contactContainer .concatWay li img {
+        width: 160px;
+        height: 160px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000349}}
+  .contactContainer .concatLocation {
+    width: 500px;
+    height: 460px;
+    float: left; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000353}}
+    .contactContainer .concatLocation .address {
+      height: 115px;
+      width: 100%;
+      box-sizing: border-box;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+      -o-box-sizing: border-box;
+      padding: 35px 30px;
+      background: #f2f2f2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000359}}
+      .contactContainer .concatLocation .address p {
+        font-size: 20px;
+        margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000362}}
+        .contactContainer .concatLocation .address p:last-child {
+          font-size: 18px;
+          margin-bottom: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/user\/Desktop\/work\/todoMVC\/static\/guanwangApp\/sass\/aboutUs\.scss}line{font-family:\0000368}}
+    .contactContainer .concatLocation .mapContainer {
+      height: 345px;
+      width: 100%; }
+
+/*# sourceMappingURL=aboutUs.css.map */
